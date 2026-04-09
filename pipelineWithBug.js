@@ -92,6 +92,7 @@ function pipelineWithBug(exampleText) {
     console.log('[pipelineWithBug] cleanedText: ', cleanedText);
 
     sendToTTSFunction(cleanedText);
+    return cleanedText;
 };
 
 const exampleText = { text: "Assistant: example text"} ;
